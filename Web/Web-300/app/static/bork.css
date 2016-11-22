@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Advent+Pro:100);
+html { 
+    background:  url(http://68.media.tumblr.com/d264bcb96e76bc4315503f890e64c901/tumblr_ny80a9xS9a1tv0bxro1_400.png) no-repeat center center fixed; 
+    background-size: cover;
+}
+h1{
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 3em;
+    margin: .2em .5em;
+    color: rgba(0,0,0, 4);
+}
+select{
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 2em;
+    margin: .2em .5em;
+    color: rgba(0,0,0, 4);
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+input{
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 1em;
+    margin: .2em .5em;
+    color: rgba(0,0,0, 4);
+    float: center
+}
+body {
+    height: 100%;
+}

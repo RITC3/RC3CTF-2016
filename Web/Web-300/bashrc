@@ -1,0 +1,155 @@
+rm (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+bash (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+dash (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+sh (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+csh (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+zsh (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+rbash (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+ed (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+vi (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+vim (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+nano (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+pico (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+unset (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+fset (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+netstat (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+ss (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+ps (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+which (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+touch (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+less (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+more (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+man (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+cd (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+gedit (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+leafpad (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+tar (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+grep (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+find (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+ssh (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+sed (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+awk (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+diff (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+sort (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+cut (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+paste (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+export (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+xargs (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+wget (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}
+
+ftp (){
+    echo "[+] BORK BORK BORK BORK!!!!"
+}

@@ -1,0 +1,227 @@
+Spycraft:
+
+Image Stego
+===========
+* Image of UVB-76
+* Uses steghide to cover a rot47 ciphered payload
+* Key of "4625"
+* Metadata contains the clue "kHz?" and confirmation that this is UVB-76
+* to generate image: steghide embed -ef rot47\ Payload.txt -cf cover.jpg -p 4625 -sf challenge.jpg
+
+rot47:
+p86?E vi (6VC6 8=25 J@F 92G6 2446AE65 E9:D >:DD:@?]  (6 92G6 @C496DEC2E65 2 D6C:6D @7 5C@AD E@ =625 J@F E@ E96 7:?2= E2C86ED]  %96 56E2:=D 2C6 E@@ D6?D:E:G6 7@C @?6 EC2?D>:DD:@?]  %96 7:CDE A92D6 :D 2E 9EEAi^^4E7]8C6886C?2FE]4@>^2?5\D@\:E\368:?D
+
+Plaintext:
+Agent G: We're glad you have accepted this mission.  We have orchestrated a series of drops to lead you to the final targets.  The details are too sensitive for one transmission.  The first phase is at http://ctf.greggernaut.com/and-so-it-begins
+
+
+Navajo Code Talker
+==================
+* Code Language (Navajo)
+* Base32 Encoded navajo strings based on https://en.wikipedia.org/wiki/Code_talker#Navajo_code_talkers
+
+Navajo:
+Tin Mąʼii Tązhii Dlǫ́ʼii Tłʼízí yázhí tááʼ Tązhii Nóódaʼí Dzeeh Shash Bįįh Tązhii Nóódaʼí Tin Shash Wóláchííʼ Tłʼízí yázhí ashdlaʼ Dibé Dlǫ́ʼii Tsáʼásziʼ tááʼ Shash Wóláchííʼ Naʼastsʼǫǫsí Gah Ałnáʼázdzoh Dlǫ́ʼii dį́į́ʼ Béésh dootłʼizh Téliichoʼí Shash Dzeeh Wóláchííʼ kʼaaʼ yeiłtįįh Mąʼii Néʼéshjaaʼ Béésh dootłʼizh Téliichoʼí Wóláchííʼ Neeshchʼííʼ Neeshchʼííʼ Ałnáʼázdzoh Tłʼízí Tłʼízí yázhí ashdlaʼ Béésh dootłʼizh Wóláchííʼ Bisóodi Mąʼii Ałnáʼázdzoh Ałnáʼázdzoh Tłʼízí yázhí Tin Bįįh Ałnáʼázdzoh Neeshchʼííʼ ashdlaʼ naaki Dlǫ́ʼii Tsáʼásziʼ Béésh dootłʼizh Shash Wóláchííʼ Naʼastsʼǫǫsí Téliichoʼí Dibé Dibé Wóláchííʼ Tsáʼásziʼ Téliichoʼí Wóláchííʼ Néʼéshjaaʼ Shash Dibé Ałnáʼázdzoh Dzeeh Béésh dootłʼizh Tązhii Mąʼii Naʼastsʼǫǫsí Neeshchʼííʼ naaki Mósí Wóláchííʼ Tsáʼásziʼ tááʼ Shash Neeshchʼííʼ Béésh dootłʼizh Dibé Tłʼízí Dibé Béésh dootłʼizh Bįįh Shash Néʼéshjaaʼ Gah Dibé Dibé Wóláchííʼ Béésh dootłʼizh Tązhii Bisóodi Néʼéshjaaʼ Tin kʼaaʼ yeiłtįįh Łį́į́ʼ Tin naaki Bįįh Téliichoʼí Néʼéshjaaʼ Naʼastsʼǫǫsí kʼaaʼ yeiłtįįh Tłʼízí naaki naaki Dibé yázhí Tązhii Néʼéshjaaʼ Neeshchʼííʼ Nóódaʼí Dlǫ́ʼii hastą́ą́ tááʼ Gah Néʼéshjaaʼ Dzeeh Wóláchííʼ kʼaaʼ yeiłtįįh Mąʼii Dibé tááʼ tááʼ Akʼehdidlíní Dzeeh Shash tááʼ Dlǫ́ʼii Dibé tááʼ Bįįh Naʼastsʼǫǫsí Dzeeh Shash Béésh dootłʼizh Dlǫ́ʼii hastą́ą́ tááʼ tááʼ Néʼéshjaaʼ Dzeeh Shash Béésh dootłʼizh Tłʼízí Tłʼízí yázhí Tsáʼásziʼ tááʼ Mąʼii Neeshchʼííʼ Mąʼii tááʼ Tłʼízí Tłʼízí yázhí Tin Bįįh Shash Neeshchʼííʼ Tsáʼásziʼ kʼaaʼ yeiłtįįh Tłʼízí Tłʼízí yázhí tááʼ Tązhii Bįįh Néʼéshjaaʼ Téliichoʼí dį́į́ʼ Ałnáʼázdzoh Wóláchííʼ ashdlaʼ Bįįh Mąʼii Naʼastsʼǫǫsí kʼaaʼ yeiłtįįh kʼaaʼ yeiłtįįh Tłʼízí Dzeeh tááʼ Bįįh Bisóodi Naʼastsʼǫǫsí Tin Ałnáʼázdzoh Mósí Wóláchííʼ Tin Mósí Nóódaʼí Neeshchʼííʼ Shash Dibé Dibé Wóláchííʼ dį́į́ʼ tááʼ kʼaaʼ yeiłtįįh Naʼastsʼǫǫsí Mąʼii Gah Dlǫ́ʼii Tłʼízí yázhí dį́į́ʼ Béésh dootłʼizh Wóláchííʼ Néʼéshjaaʼ ashdlaʼ Nóódaʼí Dlǫ́ʼii Tsáʼásziʼ tááʼ Shash Wóláchííʼ Naʼastsʼǫǫsí Téliichoʼí Dibé Dibé Wóláchííʼ naaki Dibé yázhí Néʼéshjaaʼ Dzeeh Shash Tsáʼásziʼ Tłʼízí hastą́ą́ dį́į́ʼ tááʼ Téliichoʼí Néʼéshjaaʼ Gah Nóódaʼí Dlǫ́ʼii hastą́ą́ tááʼ Tązhii Tązhii Dzeeh Wóláchííʼ Béésh dootłʼizh Dibé Wóláchííʼ Tsáʼásziʼ Dibé yázhí Néʼéshjaaʼ Naʼastsʼǫǫsí kʼaaʼ yeiłtįįh kʼaaʼ yeiłtįįh Bįįh Naʼastsʼǫǫsí Dibé yázhí Gah Wóláchííʼ Dzeeh Shash Bįįh Dlǫ́ʼii hastą́ą́ tááʼ tááʼ Dzeeh Dzeeh Shash Dlǫ́ʼii Łį́į́ʼ Tłʼízí yázhí Tsáʼásziʼ tááʼ Dibé yázhí Mąʼii Tsáʼásziʼ kʼaaʼ yeiłtįįh Mósí Wóláchííʼ naaki Bįįh Nóódaʼí Néʼéshjaaʼ Gah Tsáʼásziʼ Bįįh Nóódaʼí Dibé yázhí Béésh dootłʼizh Bisóodi Naʼastsʼǫǫsí Neeshchʼííʼ naaki Tłʼízí Naʼastsʼǫǫsí Dibé yázhí Tązhii Łį́į́ʼ Néʼéshjaaʼ Téliichoʼí Dibé Dlǫ́ʼii Néʼéshjaaʼ Béésh dootłʼizh tááʼ Mąʼii Néʼéshjaaʼ Téliichoʼí Ałnáʼázdzoh Tłʼízí Mósí ashdlaʼ Dibé yázhí Nóódaʼí Mąʼii Béésh dootłʼizh Gah Dlǫ́ʼii hastą́ą́ tááʼ Téliichoʼí Bisóodi Néʼéshjaaʼ Neeshchʼííʼ kʼaaʼ yeiłtįįh Dlǫ́ʼii naaki Dibé yázhí Dibé yázhí Nóódaʼí Néʼéshjaaʼ Neeshchʼííʼ Ałnáʼázdzoh Dibé naaki dį́į́ʼ tááʼ Mąʼii Neeshchʼííʼ Béésh dootłʼizh Dibé Łį́į́ʼ Tłʼízí Dibé yázhí Dibé yázhí Tin Neeshchʼííʼ Mąʼii Béésh dootłʼizh Dibé naaki dį́į́ʼ Tązhii Mąʼii Naʼastsʼǫǫsí ashdlaʼ kʼaaʼ yeiłtįįh Ałnáʼázdzoh Dzeeh Béésh dootłʼizh Bįįh Tązhii
+
+
+Base32:
+IFTWK3TUEBDTUIBAK5SWY3BAMRXW4ZJBEAQFOZJANNXGK5ZAPFXXKIDXN52WYZBAMJSSAYJAOBSXEZTFMN2CAY3BNZSGSZDBORSSAZTPOIQHI2DJOMQG22LTONUW63ROEAQFS33VEB3WS3DMEBZW633OEBZGKY3FNF3GKIDBNYQGK3TDOJ4XA5DFMQQGE3DPMIXCAICUNBSSA43QMFRWK4ZAO5UWY3BAMJSSA2LOEBYG643JORUW63TTEAZSAYLOMQQDMLRAEBDW633EEBWHKY3LFYQCA2DUORYDULZPMN2GMLTHOJSWOZ3FOJXGC5LUFZRW63JPONQW2LLUONXS243FNZSHGLLINFZS24TFM5QXEZDT
+
+
+Plaintext:
+Agent G:  Well done!  We knew you would be a perfect candidate for this mission.  You will soon receive an encrypted blob.  The spaces will be in positions 3 and 6.  Good luck.  http://ctf.greggernaut.com/sam-tso-sends-his-regards
+
+
+Morse Code / Spectrogram
+========================
+* Semi-distorted Morse code on a loop
+* Right channel include morse code message
+* Left and right channels contain "noise"
+  * Noise generated using Coagula, an image -> wav program
+  * Image is of the key in hex
+  * XORing the uppercase letters of the morse code with the bytes from the noise gives the real message 
+
+Morse Code:  "thereisnomeaninginthismessagedonotseekforoneyouwillfailwhyareyouevendecodingthiswowwhatawasteoftimeyouregoingtorunoutoftimeatthisratetrololo"
+
+PlainText: """Agent G: Awesome Work!
+Encoded payload uses this alphabet: ,-.0123456789abcefhiklmoprst
+http://ctf.greggernaut.com/its-just-a-one-time-thing"""
+
+
+Broken into 10 fourteen character segments for streaming/convenience
+
+--------------
+0
+thereisnomeani
+35:0F:00:1C:11:49:34:54:4F:2C:12:04:1D:06
+Agent G: Aweso
+--------------
+1
+nginthismessag
+03:02:49:39:1B:1A:02:52:67:20:1D:10:0E:03
+me Work!
+Encod
+--------------
+2
+edonotseekforo
+00:00:4F:1E:0E:0D:1F:0A:04:0F:46:1A:01:0A
+ed payload use
+--------------
+3
+neyouwillfailw
+1D:45:0D:07:1C:04:49:0D:00:16:09:08:0E:12
+s this alphabe
+--------------
+4
+hyareyouevende
+1C:43:41:5E:48:57:5F:44:57:45:51:5B:52:52
+t: ,-.01234567
+--------------
+5
+codingthiswoww
+5B:56:05:0B:0D:02:12:00:00:18:1B:02:18:07
+89abcefhiklmop
+--------------
+6
+hatawasteoftim
+1A:12:00:6B:1F:15:07:04:5F:40:49:17:1D:0B
+rst
+http://ctf
+--------------
+7
+eyouregoingtor
+4B:1E:1D:10:15:02:02:1D:07:0F:12:00:41:11
+.greggernaut.c
+--------------
+8
+unoutoftimeatt
+1A:03:40:1C:00:1C:4B:1E:1C:1E:11:4C:15:59
+om/its-just-a-
+--------------
+9
+hisratetrololo
+07:07:16:5F:15:1D:08:11:5F:1B:04:06:02:08
+one-time-thing
+--------------
+
+
+Book cipher
+===========
+* Playlist is the dictionary
+* First song, "Half Built House" is the key
+  * Lyrics:  0096 2251 2110 8105 (Repeats 5x, 80 chars/words max)
+  * Those numbers are used as indices into the song names
+  * Indexing based on characters.  First character is 0
+
+Plaintext:
+Secret Key Num Nickel year front side greggernaut com one cipher plox
+
+Playlist
+[KEY] HALFBUILTH (Half Built House / We Were Promised Jetpacks)
+S (0) SPACEMAN   (Spaceman / The Killers)
+E (0) EMPIRE     (Empire / OF MONSTERS AND MEN)
+C (9) SHARKATTAC (Shark Attack / Grouplove)
+R (6) SWEATERWEA (Sweater Weather / The Neighbourhood)
+E (2) IBELIEVE   (I Believe / Nico Vega)
+T (2) MYTYPE     (My Type / Saint Motel)
+K (5) NOONEKNOWS (No One Knows / Queens of the Stone Age)
+E (1) HENRIETTA  (Henrietta / The Fratellis)
+Y (2) MAYDAY     (Mayday / People in Planes)
+N (1) ONTOPOFTHE (On Top Of The World / Imagine Dragons)
+U (1) OURMOUTHSW (Our Mouths Were Wet / Oh No! Oh My!)
+M (0) MUTINY     (Mutiny / Pendulum)
+N (8) LETITRAIN  (Let it Rain / Living Things)
+I (1) CIGARETTES (Cigarettes in the theatre / Two door cinema club)
+C (0) COLOURS    (Colours / Grouplove)
+K (5) THEFAKEHEA (The Fake Headlines / The New Pornographers)
+E (0) ELEKTRONIK (Elektronik Supersonik / Zlad!)
+L (0) LAZULI     (Lazuli / Beach House)
+Y (9) WELCOMETOY (Welcome to your wedding day)
+E (6) DIFFERENTT (Different Trains / Reverend and the Makers)
+A (2) PLASTICSOL (Plastic Soldiers / Portugal. The Man)
+R (2) 99REDBALLO (99 Red Balloons / Goldfinger)
+F (5) SUEGOFAULT (Suego Faults / Wolg Gang)
+R (1) BRANDNEWDA (Brand New Day / Ryan Star)
+O (2) CLOUDS     (Clouds / Zach Sobiach)
+N (1) INTHEGARAG (In the Garage / Weezer)
+T (1) ATTHEENDOF (At the End of the Day / Anne Hathaway, Hugh Jackman)
+S (0) SLEEPINGLE (Sleeping Lessions (RAC Mix) / The Shins)
+I (8) DISORGANIZ (Disorganized Fun / Ronald Jenkees)
+D (1) IDONTTHINK (I Don't Think Now Is The Best Time / Hans Zimmer)
+E (0) ENCODER    (Encoder / Pendulum)
+G (5) DAYLIGHT   (Daylight / Matt and Kim)
+R (0) RULESDONTS (Rules Don't Stop / The Scientists)
+E (0) EVERYBODYH (Everybody Hurts)
+G (9) THEWANTING (The Wanting Comes In Waves / The Decemberists)
+G (6) YOURVEGAS  (Your Vegas / Your Vegas)
+E (2) THEKINGAND (The king and all of his men / Wolf Gang)
+R (2) MARYJANE   (Mary Jane / Jürgen Peter)
+N (5) RUNNINGOUT (Running out of Time / Hot Hot Heat)
+A (1) SATININACO (Satin in a Coffin / Modest Mouse)
+U (2) HOUDINI    (Houdini / Foster the People)
+T (1) ITMAKESMYH (It makes my heart break / Birds of paradise)
+C (1) ACCESSDENI (Access Denied / Scaramouche)
+O (0) OWE        (O We / They Might By Giants)
+M (8) BACKINTIME (Back in Time / Keane)
+O (1) BOWS&ARROW (Bows & Arrows / Kaiser Chiefs)
+N (0) NOTHINGTOG (Nothing to Give / White Lies)
+E (5) TAKEMEOUT  (Take me Out / Franz Ferdinand)
+C (0) CREEPINUPT (Creepin' Up the Backstairs / The Fratellis)
+I (0) ISTHISIT   (Is This It / The Strokes)
+P (9) ELECTROGYP (Electro Gypsy / Savlonic)
+H (6) IZEOFTHEWO (Ize of the World / The Strokes)
+E (2) WHENHEDIED (When he died / Lemon Demon)
+R (2) HERO       (Hero / Family of the Year)
+P (5) SHUTUPANDD (Shut up and Dance / Walk the Moon)
+L (1) ELEPHANTPA (Elephant Parade / Reliant K)
+O (2) THOUGHTSOF (Thoughts Of A Dying Atheist / Muse)
+X (1) EXSANDOHS  (Exs and Ohs / Elle King)
+
+
+
+[ ] Dead Drop
+=========
+* By now it should be obvious that they're dealing with a VIC cipher.  I followed the wikipedia example very closely and should be easily solvable at this point.
+* Decoded message gives 30 decimal numbers.
+* Treat these numbers as coordinates.
+* Using google maps, look at the satellite view.  There should be a letter under each coordinate
+* Flag: RC3-2016-J.BOZART
+
+VIC Cipher
+
+78737 17632 11651 19103 48640 54425 20750 57474 72767 36031
+21517 84927 40721 09343 61425 79261 19215 19112 72417 91093
+43613 27138 11193 63871 49724 93882 40419 12878 89273 67952 
+82895 14270 41794 07149 79179 09385 02786 79052 61477 18931 
+31704 11702 68249 12171 82865 64761 91528 12262 10715 13142 
+53525 80665 08798 25822 63338 66418 06638 32116 49417 93282 
+53115 93232 63422 12449 41204 32122 75404 78135 02726 95148 
+61167 04995 10153 25112 81377 81430 49794 91742 41176 14433 
+53499 18112 42499 84990 92468 28513 61132 24328 03611 63158 
+28249 53631 44811 
+
+
+
+
+Decoded VIC Cipher
+
+take.care.of.this.problem....39.553469,-119.864375,39.158076,-119.787425,43.485954,25.716452,34.260902,-88.766856,31.300248,131.078382,47.772447,-116.829302,41.199670,-80.486106,42.244626,-71.003112,42.120352,-76.900029,40.718361,-73.936826,42.424801,-84.527512,-22.659735,14.565248,53.814100,-3.055051,51.353292,0.503093,40.524943,-112.248105
+
+Flag:
+R		39.553469, 	-119.864375
+C		39.158076, 	-119.787425
+3		43.485954, 	25.716452
+
+2		34.260902, 	-88.766856
+0		31.300248, 	131.078382
+1		47.772447, 	-116.829302
+6		41.199670, 	-80.486106
+
+J		42.244626, 	-71.003112
+.		42.120352, 	-76.900029
+B		40.718361, 	-73.936826
+O		42.424801, 	-84.527512
+Z		-22.659735,	14.565248
+A		53.814100, 	-3.055051
+R		51.353292, 	0.503093
+T		40.524943, 	-112.248105
