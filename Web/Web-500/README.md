@@ -74,3 +74,6 @@ oReq.send();
 With all this information, you can now login as julian assange by spoofing his PHPSESSID cookie. Then you go to the read messages page and click on the one from darkarmy. You enter the PIN which you figured out previously (03071971), then you enter the private key and passphrase and the message would be decrypted which contained the flag and a fun zip file with some bidenbro memes.
 
 Flag: RC3-2016-12409901
+
+
+There's some fun log data in the log_data directory from the competition. There's a lot and some of it looks a little ugly (mainly the database dumps), so just contact bigshebang (github issue would work fine, but you can probably find me elsewhere) for data in a different format if that's something you're interested in.
