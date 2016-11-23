@@ -1,0 +1,30 @@
+<html>
+<h1>It works!</h1>
+<p>please login</p>
+
+<!--
+<?php
+/* security team said our old prod system was too old? we made it our dev environment (port 8000) and installed the latest and greatest for prod.
+ * auth still shared between dev and prod to make QA easier.
+ */
+//
+$username = "admin";
+$password = "admin551";
+require_once("dev.php");
+require_once("keys.php");
+
+//prototyping login
+$post_user = $_POST['user'];
+$post_pass = $_POST['pass'];
+
+//security team said we need to hash passwords before storing them
+$cmd = "echo 'salt" . $post_pass . "' | md5sum";
+$hash_pass = system($cmd);
+
+//do DB calls here
+//TODO: finish this
+$db = mysql("192.168.3.30", $username, $password);
+?>
+-->
+
+</html>
